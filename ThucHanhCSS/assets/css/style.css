@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.card-item {
+  max-width: 300px;
+  max-height: 800px;
+  background-color: white;
+  margin-top: 10%;
+  margin-left: 30%;
+  border: 1px solid black;
+}
+
+.card-item img {
+  width: 100%;
+}
+
+.class-name {
+  text-align: center;
+}
+
+.course-name {
+  padding-left: 28px;
+}
+
+.location-rating {
+  display: flex;
+  margin-top: 15px;
+}
+
+.location {
+  width: 70%;
+  padding-left: 28px;
+}
+
+.rating {
+  width: 30%;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.price {
+  color: red;
+  padding-left: 28px;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.fas.fa-star {
+    color: #c8ed0c;
+}

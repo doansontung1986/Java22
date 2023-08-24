@@ -1,0 +1,170 @@
+/* reset browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.column {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.column-1 {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.column-3 {
+  width: calc(100% / 3);
+}
+
+/* header */
+.header-main {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+/* container */
+.container {
+  width: 1080px;
+  margin: auto;
+}
+
+.wrap-header {
+  display: flex;
+}
+
+.logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 125px;
+  height: 70px;
+  /* Hiển thị vừa đủ trên các màn hình khác */
+  object-fit: cover;
+}
+
+.menu-main {
+  width: 70%;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu-main li {
+  /* Bỏ dấu mặc định thẻ li */
+  list-style: none;
+  margin-left: 20px;
+  position: relative;
+  padding: 16px 0;
+}
+
+.menu-main li a {
+  color: #fff;
+  /* Bỏ gạch chân thẻ a */
+  text-decoration: none;
+}
+
+.menu-main li i {
+  font-size: 13px;
+  color: #fff;
+}
+
+.menu-main li:hover .sub-menu {
+  display: block;
+}
+
+/* Sub-menu */
+.sub-menu {
+  position: absolute;
+  top: 100%;
+  background-color: #fff;
+  width: 200px;
+  border-radius: 5px;
+  display: none;
+}
+
+.sub-menu li {
+  margin-left: 0;
+  padding: 10px 12px;
+  position: relative;
+}
+
+.sub-menu li a {
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.c2-menu {
+  position: absolute;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #fff;
+  left: 100%;
+  top: 0;
+  display: none;
+}
+
+.sub-menu li:hover .c2-menu  {
+  display: block;
+}
+
+.slider-main .owl-carousel .item img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.news-main {
+  background-color: #ededed;
+  padding: 30px 0;
+}
+
+.wrap-title {
+  text-align: center;
+}
+
+.wrap-title .title-main {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.wrap-title img {
+  width: 220px;
+  object-fit: cover;
+}
+
+.box-news {
+  margin-bottom: 30px;
+}
+
+.box-news img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.box-news .title {
+  margin-top: 6px;
+  font-size: 16px;
+  line-height: 1.4;
+}
